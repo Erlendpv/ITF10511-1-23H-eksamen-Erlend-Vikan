@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>About</title>
 </head>
 <body>
     <header>
@@ -17,23 +21,15 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>blob</h1>
-            <img src="" alt="">
-        </section>
-        <section>
+        <section id="hero">
             <article>
-                <h2>Engaging subheading. What can you help your visitors with</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eius aut quis excepturi asperiores atque quia labore nihil nesciunt nulla, praesentium, minima, ipsum illum dignissimos ex sequi iste accusamus delectus.</p>
-            </article>
-            <article>
-                <img src="https://placehold.co/400" alt="">
-                <h2>About our company</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at numquam debitis maiores temporibus voluptates, vitae quas recusandae veritatis et incidunt necessitatibus reprehenderit aliquid dicta, fugit iure voluptatibus eveniet ratione!</p>
-                <button href="about.html">read more about us</button>
+                <img src="img/hero.webp" alt="">
+                <h3>About Our Company</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora et necessitatibus tenetur nisi. Saepe beatae consectetur ipsa quibusdam itaque. Dolorum ea veritatis eaque laboriosam cumque! Eligendi repellat a illum optio?</p>
+                <button>Get in touch</button>
             </article>
         </section>
-        <section>
+        <section id="our-services">
             <h2>Our services</h2>
             <article>
                 <h3>Branding</h3>
@@ -53,14 +49,35 @@
             </article>
         </section>
         <section>
-            <h2>Sign up for our newsletter</h2>
-            <label for="email">Epost</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">sign me up</button>
+            <h2>Some of our clients</h2>
+            <img src="img/logo1.png" alt="">
+            <img src="img/logo2.png" alt="">
+            <img src="img/logo3.png" alt="">
+        </section>
+        <section>
+            <h2>Contact us</h2>
+            <article>
+                <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="title">Subject</label>
+                <input type="title" id="title" name="title" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                <button type="submit">Send message</button>
+            </form>
+            </article>
+            <article>
+                <h3>Contact imformation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at numquam debitis maiores temporibus voluptates, vitae quas recusandae veritatis et incidunt necessitatibus reprehenderit aliquid dicta, fugit iure voluptatibus eveniet ratione!</p>
+                <i class="fa-solid fa-location-pin">B R A Veien 4, 1757 Halden</i>
+                <i>69 60 80 00</i>
+                <i>postmottak@hiof.no</i>
+            </article>
+            
         </section>
     </main>
-</body>
-<footer>
+    <footer>
     <img src="img/logo1.png" alt="logo">
     <p>Company Copyright 2023</p>
     <ul id="social-icons">
@@ -69,4 +86,5 @@
         <li>Linkdin</li>
     </ul>
 </footer>
+</body>
 </html>
