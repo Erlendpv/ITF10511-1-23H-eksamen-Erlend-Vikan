@@ -17,43 +17,29 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
+                <li id="contact"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="product-main">
         <section id="hero">
             <h1>Portfolio</h1>
             <img src="img/hero.webp" alt="">
         </section>
         <section>
             <h2>Explore previous jobs</h2>
-            <article>
-                <a href="">Branding</a>
-                <a href="">Design</a>
-                <a href="">Development</a>
+            <article id="previous-jobs">
+                <a href="#branding">Branding</a>
+                <a href="#design">Design</a>
+                <a href="#development">Development</a>
             </article>
         </section>
         <section>
-            <a href="">Branding</a>
+            <a id="branding" href=""><h2>Branding</h2></a>
             <article>
                 <img src="https://placehold.co/400" alt="">
                 <h3>lorem ipsum dolor sit amet</h3>
             </article>
-            <article>
-                <img src="https://placehold.co/400" alt="">
-                <h3>lorem ipsum dolor sit amet</h3>
-            </article>
-            <article>
-                <img src="https://placehold.co/400" alt="">
-                <h3>lorem ipsum dolor sit amet</h3>
-            </article>
-            <article>
-                <img src="https://placehold.co/400" alt="">
-                <h3>lorem ipsum dolor sit amet</h3>
-            </article>
-        </section>
-        <section>
-            <a href="">Design</a>
             <article>
                 <img src="https://placehold.co/400" alt="">
                 <h3>lorem ipsum dolor sit amet</h3>
@@ -68,7 +54,22 @@
             </article>
         </section>
         <section>
-            <a href="">Development</a>
+            <a id="design" href=""><h2>Design</h2></a>
+            <article>
+                <img src="https://placehold.co/400" alt="">
+                <h3>lorem ipsum dolor sit amet</h3>
+            </article>
+            <article>
+                <img src="https://placehold.co/400" alt="">
+                <h3>lorem ipsum dolor sit amet</h3>
+            </article>
+            <article>
+                <img src="https://placehold.co/400" alt="">
+                <h3>lorem ipsum dolor sit amet</h3>
+            </article>
+        </section>
+        <section>
+            <a id="development" href=""><h2>Development</h2></a>
             <article>
                 <img src="https://placehold.co/400" alt="">
                 <h3>lorem ipsum dolor sit amet</h3>
@@ -88,6 +89,18 @@
         <li>Linkdin</li>
     </ul>
 </footer>
+<button id="scroll-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+    <script>
+        const scrollTopBtn = document.querySelector("#scroll-top-btn");
+        function scrollToTop() {
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+    }
+    scrollToTopBtn.addEventListener("click", scrollToTop);
+    </script>
 </body>
+    
 
 </html>
