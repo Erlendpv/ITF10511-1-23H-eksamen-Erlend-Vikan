@@ -47,6 +47,20 @@ nav ul li a{
     padding: 10px;
 }
 
+#contact2{
+    background-color: #e6bd43;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+#contact2:hover{
+    background-color: black;
+    color: #e6bd43;
+    padding: 10px;
+}
+
+
+
 #readmore-about{
     background-color: #e6bd43;
     padding: 10px;
@@ -76,29 +90,49 @@ nav ul li a{
     opacity: 0.8;
 }
 
+#kart-img img{
+    width: 100%;
+}
+
 /* Style the main content area */
 main {
     display: flex;
     flex-direction: column;
 }
+#subhead{
+    padding: 10px;
+}
+
 #subheading{
     text-align: center;
 }
 #subheading2{
     text-align: center;
 }
-.index-side1{
-    background-color: #d3d3d3;
-    padding: 1px;
+
+.index-side{
     text-align: center;
 }
+
+.index-side1{
+    background-color: #d3d3d3;
+    padding: 50px;
+    text-align: center;
+}
+
+#about-main{
+    text-align: center;
+}
+
 #our-services{
     display: flex;
     text-align: center;
-    
+
 }
 #our-services h2 {
-    margin-top: 20px; /* Add some space at the top if needed */
+    margin-top: 20px;
+    font-size: 28px;
+    
 }
 
 #our-services article {
@@ -112,18 +146,38 @@ main {
 
 #our-company {
     display: flex;
-    flex-direction: row;
     align-items: center;
-  }
-  
-  #our-company img {
-    flex: 0 0 auto;
-    margin-right: 20px;
-  }
-  
-  #our-company article {
-    flex: 1 1 auto;
-  }
+    flex-wrap: nowrap; /* Allow content to wrap to the next line on smaller screens */
+    border-style: inset;
+    border-color: black;
+}
+
+#our-company h2{
+    margin: 10px;
+}
+
+#our-company p{
+    margin: 10px;
+}
+
+#our-company a {
+    margin: 10px;
+    
+}
+
+#read-button{
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-style: inset;  
+}
+#read-button:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-style: inset;  
+}
 
 /* Style each section as its own row */
 section {
@@ -175,6 +229,22 @@ section article {
     font-size: 24px;
     text-decoration: none;
     border-bottom: 2px solid yellow;
+}
+
+#branding{
+    color: black;
+    text-decoration: none;
+}
+#design{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+#development{
+    color: black;
+    text-decoration: none;
 }
 
 #branding article{
