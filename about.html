@@ -23,12 +23,13 @@
     </header>
     <main id="about-main">
         <section id="about-hero">
-            <article>
-                <img src="img/hero.webp" alt="">
+            <img src="img/hero.webp" alt="" style="width: 100%;">
+            <div id="about-div">
+                <p>Company name</p>
                 <h3>About Our Company</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora et necessitatibus tenetur nisi. Saepe beatae consectetur ipsa quibusdam itaque. Dolorum ea veritatis eaque laboriosam cumque! Eligendi repellat a illum optio?</p>
                 <a id="contact2" href="#contact-us-h2">Get in touch with us</a>
-            </article>
+            </div>
         </section>
         <section >
             <h2>Our services</h2>
@@ -64,24 +65,28 @@
         <section id="contact-us-h2">
             <h2>Contact us</h2>
             <div class="contact-row">
-            <article>
-                <form action="contact-us">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                <label for="title">Subject</label>
-                <input type="text" id="title" name="title" required>
-                <label for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                <button type="submit">Send message</button>
-            </form>
-            </article>
-            <article>
-                <h3>Contact imformation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at numquam debitis maiores temporibus voluptates, vitae quas recusandae veritatis et incidunt necessitatibus reprehenderit aliquid dicta, fugit iure voluptatibus eveniet ratione!</p>
-                <i class="fa-solid fa-location-pin"><a href="">B R A Veien 4, 1757 Halden</a></i>
-                <i class="fa-solid fa-phone"><a href="">69 60 80 00</a></i>
-                <i class="fa-solid fa-envelope"><a href="">postmottak@hiof.no</a></i>
-            </article>
+                <div id="contact-box-form">
+                    <form action="contact-us">
+                        <h3>Send us a message</h3>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="title">Subject</label>
+                        <input type="text" id="title" name="title" required>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                        <a id="contact3">Send message</a>
+                    </form>
+                </div>
+                <div id="contact-box-info">
+                    <h3>Contact information</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at numquam debitis maiores temporibus voluptates, vitae quas recusandae veritatis et incidunt necessitatibus reprehenderit aliquid dicta, fugit iure voluptatibus eveniet ratione!</p>
+                    <ul>
+                        <li><i class="fa-solid fa-location-pin"><a href="">B R A Veien 4, 1757 Halden</a></i></li>
+                        <li><i class="fa-solid fa-phone"><a href="">69 60 80 00</a></i></li>
+                        <li><i class="fa-solid fa-envelope"><a href="">postmottak@hiof.no</a></i></li>
+                    </ul>
+                    
+                </div>
             </div>
         </section>
         <section id="kart-img">
@@ -97,5 +102,17 @@
         <li><a href="https://no.linkedin.com" class="fa-brands fa-linkedin"></a></li>
     </ul>
 </footer>
+<button id="scroll-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+    <script>
+        const scrollTopBtn = document.querySelector("#scroll-top-btn");
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+        scrollTopBtn.addEventListener("click", scrollToTop);
+    </script>
+</body>
 </body>
 </html>
