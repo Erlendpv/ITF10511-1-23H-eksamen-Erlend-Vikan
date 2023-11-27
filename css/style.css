@@ -7,7 +7,7 @@
 body {
     margin: 0;
 }
-/* Style the header */
+
 .navbar{
     background-color: white;
     padding: 10px;
@@ -15,18 +15,15 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 .navbar img{
     margin-right: 10px;
 }
-
 .navbar ul{
     list-style: none;
     display: flex;
     align-items: center;
     text-decoration: none;
 }
-
 .navbar ul li{
     margin-right: 20px;
 
@@ -46,7 +43,6 @@ nav ul li a{
     color: #e6bd43;
     padding: 10px;
 }
-
 #contact2{
     background-color: #e6bd43;
     color: black;
@@ -58,7 +54,6 @@ nav ul li a{
     color: #e6bd43;
     padding: 10px;
 }
-
 #contact3{
     background-color: #e6bd43;
     color: black;
@@ -83,10 +78,10 @@ nav ul li a{
     padding: 10px;
     
 }
+
 #hero{
     position: relative;
-  }
-  
+  } 
 #hero h1{
     position: absolute;
     top: 50%;
@@ -107,7 +102,6 @@ nav ul li a{
 #subhead{
     padding: 10px;
 }
-
 #subheading{
     text-align: center;
 }
@@ -118,7 +112,6 @@ nav ul li a{
 .index-side{
     text-align: center;
 }
-
 .index-side1{
     background-color: #d3d3d3;
     padding: 50px;
@@ -134,14 +127,13 @@ nav ul li a{
     text-align: center;
 
 }
-#our-services h2 {
+#our-services h2{
     margin-top: 20px;
     font-size: 28px;
     
 }
-
-#our-services article {
-    width: 200px; /* Adjust the width based on your design */
+#our-services article{
+    width: 200px;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -152,19 +144,16 @@ nav ul li a{
 #our-company {
     display: flex;
     align-items: center;
-    flex-wrap: nowrap; /* Allow content to wrap to the next line on smaller screens */
+    flex-wrap: nowrap;
     border-style: inset;
     border-color: black;
 }
-
 #our-company h2{
     margin: 10px;
 }
-
 #our-company p{
     margin: 10px;
 }
-
 #our-company a {
     margin: 10px;
     
@@ -184,12 +173,9 @@ nav ul li a{
     border-style: inset;  
 }
 
-/* Style each section as its own row */
 section {
     margin-bottom: 20px;
 }
-
-/* Add some padding to articles within a section */
 section article {
     padding: 10px;
     border: none;
@@ -218,19 +204,17 @@ section article {
     background-color: black;
     color: white;
   }
+
 #previous-jobs{
     text-decoration: none;
     color: black;
 }
-  
-
 #previous-jobs a{
     text-decoration: none;
     color: black;
     border-style: outset;
   } 
 
-  
 .product-main h2 {
     font-size: 24px;
     text-decoration: none;
@@ -245,7 +229,6 @@ section article {
     color: black;
     text-decoration: none;
 }
-
 #development{
     color: black;
     text-decoration: none;
@@ -257,18 +240,16 @@ section article {
     flex-direction: row;
     justify-content: space-between;
 }
-
 #branding-div article{
     width: calc(33.33% - 10px);
     margin-bottom: 20px;
 }
-
 #branding-div article img{
     width: 100%;
-    max-width: 100%;
+    max-width: 350px;
+    min-width: 200px;
     height: auto;
 }
-
 #branding-div article h3{
     margin-top: 10px;
 }
@@ -277,10 +258,10 @@ section article {
     display: flex;
     flex-wrap: nowrap;
 }
-
 #design-div article img{
     width: 100%;
-    max-width: 100%;
+    max-width: 350px;
+    min-width: 200px;
     height: auto;
     
 }
@@ -289,6 +270,10 @@ section article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+#development-div article img{
+    max-width: 350px;
+    min-width: 200px;
 }
 
 #about-hero{
@@ -302,7 +287,6 @@ section article {
     display: flex;
     align-items: center;
 }
-
 #about-hero img{
     position: absolute;
     width: 100%;
@@ -330,17 +314,14 @@ section article {
     padding: 30px;
     justify-content: space-between;
 }
-
 #our-services{
     text-align: center;
     justify-content: center;
 }
-
 #our-services h2{
     margin-top: 20px;
     font-size: 28px; /* Adjust the font size as needed */
 }
-
 #our-services article{
     display: flex;
     flex-direction: column;
@@ -348,14 +329,12 @@ section article {
     margin: 20px 0;
     border: none;
 }
-
 #our-services article h3{
     position: relative;
-    font-size: 18px; /* Adjust the font size as needed */
+    font-size: 18px;
 }
-
 #our-services article p{
-    margin-top: 10px; /* Add spacing below the h3 */
+    margin-top: 10px;
 }
 
 .contact-row{
@@ -371,29 +350,24 @@ section article {
 
 #contact-box-form,
 #contact-box-info{
-    width: 48%; /* Adjust the width based on your design */
+    width: 48%;
 }
-
 #contact-box-form form{
     display: flex;
     flex-direction: column;
     text-align: left;
     padding: 10px;
 }
-
-
 #contact-box-info{
     text-align: left;
     
 }
-
 #contact-box-info ul{
     list-style: none;
     text-decoration: none;
     color: black;
 
 }
-
 #contact-box-info ul li i{
     text-decoration: none;
     color: black;
@@ -410,14 +384,14 @@ footer {
     justify-content: space-between;
 }
 
-footer ul {
+footer ul{
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 0;
 }
 
-footer ul a {
+footer ul a{
     margin: 0 10px;
     color: white;
     text-decoration: none;
@@ -425,15 +399,37 @@ footer ul a {
 
 
 @media (max-width: 600px) {
-    main {
-        padding: 10px;
-    }
 
-    nav {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul{
+        margin-top: 10px;
         flex-direction: column;
     }
 
-    nav ul {
-        margin-top: 10px;
+    main{
+        padding: 10px;
     }
+
+    #branding-div article{
+        flex-direction: column;
+    }
+
+    #branding-div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #design-div article{
+        flex-direction: column;
+    }
+
+    #design-div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
 }
